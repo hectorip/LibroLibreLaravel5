@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('librolibre.welcome');
 });
 
-Route::get('/about', 'Controller@hello');
+Route::get('about', 'Controller@hello');
+
+Route::get('terminos_y_condiciones', 'PagesController@toc');
