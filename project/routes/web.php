@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('about', 'Controller@hello');
 
 Route::get('terminos_y_condiciones', 'PagesController@toc');
+
+Route::get('login', 'AuthsController@loginn');
