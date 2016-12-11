@@ -23,5 +23,4 @@ Route::get('login', 'AuthsController@loginn');
 
 // Route::get('bokks', 'BooksController@books');
 // Route::get('books/new', 'BooksController@books');
-
-// I have a lot to leran here and dibt know what to do
+// I have a lot to leran here and don't know what to do
