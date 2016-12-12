@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('librolibre.welcome');
 });
 
+Route::get("/test_pag", function(){
+    return "this is a test page;";
+});
+
 Route::get('about', 'PagesController@about');
 
 Route::get('terminos_y_condiciones', 'PagesController@toc');
